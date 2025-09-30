@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(107, 107, 107);
+}
+h1{
+    background-color: blue;
+    color: white;
+}
+h2{
+    color: red;
+}
+a{
+    background-color: green;
+    color: rgb(10, 9, 9);
+    padding: 10px;
+    text-decoration: none;
+    border: solid 5px rgb(116, 224, 116);
+}
+a:hover{
+    background-color: rgb(116, 224, 116);
+    padding: 15px;
+    border: solid 5px green ;
+}
