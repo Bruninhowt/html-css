@@ -1,29 +1,29 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste</title>
+    <title>Test03</title>
     <style>
-        body{
-            background-image: url(imagens/wallpaper006.jpg) ;
-        }
-        div.quadrado{
+        .quadrado{
+            background-image: url(imagens/wallpaper003.jpg);
+            height: 200px;
+            width: 100%;
             border: 2px solid black;
-            width: 300px;
-            height: 300px;
-            display: inline-block;
+            margin-top: 5px;
             border-radius: 10px;
         }
         div#q1{
-            background-color: aquamarine;
+            background-position: left;
         }
         div#q2{
-            background-image: linear-gradient(to bottom, rgb(6, 228, 6), darkgreen);
+            background-position: right;
         }
         div#q3{
-            background-image: url(imagens/pattern003.png);
-            background-size: cover;
+            background-position: center center ;
+        }
+        div#q4{
+            background-position: top;
         }
     </style>
 </head>
@@ -35,6 +35,9 @@
 
     </div>
     <div class="quadrado" id="q3">
+
+    </div>
+    <div class="quadrado" id="q4">
 
     </div>
 </body>
