@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-header {
+header{
     background-color: black;
     padding: 30px;
 }
@@ -14,9 +14,14 @@ h1 {
     text-align: center;
 }
 
-header a {
+header a, footer a{
     text-decoration: none;
     color: white;
+}
+footer > p{
+    color: white;
+    background-color: black;
+    text-align: center;
 }
 main {
     width: 50%;
