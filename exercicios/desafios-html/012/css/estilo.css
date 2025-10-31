@@ -1,31 +1,19 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+@charset "UTF-8";
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    max-height: 100vh;
+    background-color: cornflowerblue;
+}
 header{
     background-color: black;
-    padding: 30px;
-}
-
-header p,
-h1 {
     color: white;
     text-align: center;
 }
-
-header a, footer a{
-    text-decoration: none;
-    color: white;
-}
-footer > p{
-    color: white;
-    background-color: black;
-    text-align: center;
-}
-main {
-    width: 50%;
-    padding: 20px;
-    font-family: 'Playfair Display', serif;
-    color: black;
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
 }
