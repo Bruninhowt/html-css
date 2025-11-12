@@ -6,7 +6,7 @@
 }
 html, body{
     max-height: 100vh;
-    background-color: cornflowerblue;
+    background-color: rgb(132, 164, 223);
 }
 header{
     background-color: black;
@@ -16,4 +16,30 @@ header{
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
+}
+header p{
+    padding-bottom: 10px;
+}
+header a, footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem{
+    background-color: rgb(77, 75, 75);
+    color: white;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
