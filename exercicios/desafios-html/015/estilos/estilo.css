@@ -1,0 +1,9 @@
+body{
+    background-image: url(../imagens/fundo-madeira.jpg);
+}
+.conteiner img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
