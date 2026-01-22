@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/* configuração geral */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    box-shadow: 3px 3px 8px black;
+}
