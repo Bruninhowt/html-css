@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    background-color: darkgray;
+    text-align: center;
+    padding: 10px;
+}
+ul{
+    background-color: darkgray;
+}
+li{
+    
+    display: inline;
+    color: black;
+    padding: 10px;
+}
+p{
+    padding: 15px;
+}
